@@ -1,5 +1,5 @@
 class Televisor {
-    boolean tvOn;
+    private boolean tvOn;
 
     Televisor(boolean tvOn) {
         this.tvOn = tvOn;
