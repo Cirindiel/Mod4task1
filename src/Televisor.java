@@ -1,19 +1,19 @@
 class Televisor {
-    String tvStatus;
+    boolean tvOn;
 
-    Televisor(String tvStatus) {
-        this.tvStatus = tvStatus;
+    Televisor(boolean tvOn) {
+        this.tvOn = tvOn;
     }
 
     void turnOn() {
-        tvStatus = "ON";
+        tvOn = true;
     }
 
     void turnOff() {
-        tvStatus = "OFF";
+        tvOn = false;
     }
 
     void showStatus() {
-        System.out.println("Status telewizora: " + tvStatus);
+        System.out.println("Telewizor włączony " + tvOn);
     }
 }

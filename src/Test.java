@@ -1,6 +1,6 @@
 public class Test {
     public static void main(String[] args) {
-        Televisor televisior = new Televisor("OFF");
+        Televisor televisior = new Televisor(false);
 
         televisior.showStatus();
         televisior.turnOn();
